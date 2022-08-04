@@ -1,0 +1,12 @@
+{
+  "name": "playwright-test-mwe-newContext-page",
+  "scripts": {
+    "origin": "playwright test tests/origin.test.ts --headed",
+    "no_origin": "playwright test tests/no_origin.test.ts --headed"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.24.2",
+    "ts-node": "^10.9.1"
+  }
+}
